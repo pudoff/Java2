@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Lesson4.HW.PFChat">
+  <grid id="27dc6" binding="PFChat" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="200" y="100" width="650" height="650"/>
+    </constraints>
+    <properties>
+      <name value="PFChat"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="f8778" binding="pnlContacts" layout-manager="GridBagLayout">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0" ipadx="25" ipady="400"/>
+        </constraints>
+        <properties>
+          <name value=""/>
+          <opaque value="false"/>
+        </properties>
+        <border type="line" title="Contacts">
+          <color color="-3750202"/>
+        </border>
+        <children>
+          <component id="360e6" class="javax.swing.JList" binding="list2" default-binding="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+              <gridbag weightx="1.0" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <enabled value="true"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="8ebc7" binding="pnlChat" layout-manager="GridBagLayout">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0" ipadx="350" ipady="400"/>
+        </constraints>
+        <properties/>
+        <border type="line" title="Chat">
+          <color color="-3750202"/>
+        </border>
+        <children>
+          <component id="ca85" class="javax.swing.JList" binding="list1" default-binding="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+              <gridbag weightx="1.0" weighty="1.0"/>
+            </constraints>
+            <properties/>
+          </component>
+        </children>
+      </grid>
+      <grid id="920d3" binding="lowerPanel" layout-manager="GridBagLayout">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="2" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="0.0" ipady="35"/>
+        </constraints>
+        <properties/>
+        <border type="line">
+          <color color="-3750202"/>
+        </border>
+        <children>
+          <component id="1a2a9" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="4" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+              <gridbag weightx="1.0" weighty="0.0" ipadx="375" ipady="10"/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="224bd" class="javax.swing.JButton" binding="btSend">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="1.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <text value="Отправить"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
